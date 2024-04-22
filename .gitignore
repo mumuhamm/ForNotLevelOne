@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.DS_Store  # If you're using macOS, you might also want to ignore these
+__pycache__/
+*.py[cod]  # Ignore Python bytecode files
+*.log
+
