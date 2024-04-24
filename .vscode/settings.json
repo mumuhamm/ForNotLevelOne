@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "vector": "cpp",
+        "stepOne.C": "cpp",
+        "toy2D_DecayTime_Mass.C": "cpp"
+    }
+}
