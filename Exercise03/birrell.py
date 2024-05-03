@@ -47,7 +47,12 @@ plt.plot(omega_flat, beta_k_real, label='Re($\\beta_k$)', linewidth=1)
 plt.xlabel(r'$\omega$', fontsize=24)
 plt.ylabel(r'$\beta_k$', fontsize=24)
 plt.legend(fontsize=24)
-plt.text(0.13, 1.02, r'$\mathbf{FUW}$ $\mathit{Private}$', transform=plt.gca().transAxes, fontsize=12, ha='center', bbox=dict(facecolor='none', edgecolor='none', boxstyle='square'))
+plt.text(0.13, 1.02, 
+         r'$\mathbf{FUW}$ $\mathit{Private}$', 
+         transform=plt.gca().transAxes, 
+         fontsize=12, ha='center', 
+         bbox=dict(facecolor='none', 
+                   edgecolor='none', boxstyle='square'))
 plt.tight_layout()
 plt.savefig('alphabeta_beta.pdf')
 plt.savefig('alphabeta_beta.png', dpi=300)
